@@ -1,25 +1,31 @@
-import room from '@/assets/room.webp';
+import room from '@/assets/room.png';
 import InfoCircle from '@/components/InfoCircle';
 
 // Configuration for all info circles
 const infoCircles = [
   {
-    x: 25,
+    x: 16,
     y: 20,
+    name: 'Outdoors',
+    info: <p>I love exploring the outdoors, usually by hiking and camping. I used to paint beautiful landscapes too!</p>,
+  },
+  {
+    x: 8,
+    y: 50,
     name: 'Favorites',
-    info: <p>I love Formula 1 (and racing in general), hiking, watching movies, and spending time with family!</p>,
+    info: <p>I love reading and have learned so much through books!</p>,
   },
   {
-    x: 85,
-    y: 40,
-    name: 'Projects',
-    info: <p>I've built cars, coded rocket trajectories, and now help everyone I know with anything around the house!</p>,
+    x: 88,
+    y: 73,
+    name: 'Plants',
+    info: <p>I love taking car of plants and have quite the green thumb! I have countless of beautiful plants back home.</p>,
   },
   {
-    x: 40,
+    x: 45,
     y: 65,
     name: 'About',
-    info: <p>Hello! I'm German, originally from San Jose, CA , and now live in Denver, CO!</p>,
+    info: <p>Hello! I'm Indian and originally from Punjab, but I have since lived in Oregon, the Bay Area, and Denver, CO!</p>,
   },
 ];
 
